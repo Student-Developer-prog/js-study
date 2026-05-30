@@ -36,10 +36,38 @@
     
 // }
 
-const userLoggedIn = true
-const debitCard = true
+// const userLoggedIn = true
+// const debitCard = true
+// const loggedInFromGoogle = false
+// const loggedFromEmail = true
 
-if (userLoggedIn && debitCard && 2==3) {
-    console.log("Allow to buy course.");
+// if (userLoggedIn && debitCard && 2==3) {
+//     console.log("Allow to buy course.");
     
+// }
+
+// if (loggedInFromGoogle || loggedFromEmail ){
+//     console.log("User logged In.");
+    
+// }
+
+const month = 3
+switch (month) {
+    case 1:
+        console.log("January");
+        break;
+    case 2:
+        console.log("Feb");
+        break;
+    case 3:
+        console.log("March");
+        break;
+    case 4:
+        console.log("April");
+        break;
+
+    default:
+        console.log("Default case match.");
+        
+        break;
 }
